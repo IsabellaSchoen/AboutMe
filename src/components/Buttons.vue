@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-dropdown no-caret> <!-- no-caret for not showing the dropdown sign-->
+    <b-dropdown id="dropdown-dropright" dropright no-caret> <!-- no-caret for not showing the dropdown sign-->
       <template #button-content>
         <b-icon icon="list"></b-icon> Menu
       </template>

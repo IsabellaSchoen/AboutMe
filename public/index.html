@@ -1,17 +1,29 @@
 <!DOCTYPE html>
+
 <html lang="">
+<!-- to declare the language of the Web page -->
   <head>
+  <!-- contains meta information about the HTML page -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>
+        AboutMe
+    </title>
   </head>
   <body>
+  <!-- defines the document's body, and is a container for all the visible contents,
+        such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <main>
+        <div id="app"></div>
+    </main>
     <!-- built files will be auto injected -->
   </body>
 </html>
+
+
+<!-- <%= htmlWebpackPlugin.options.title %> -->
