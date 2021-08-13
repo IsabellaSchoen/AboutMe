@@ -44,9 +44,23 @@
 
 
     <div class="project">
-      <h1 style="color: black">
+      <h2 style="color: black">
         Projects I participated.
-      </h1>
+      </h2>
+
+
+      <div class="row">
+        <div class="column">
+          <img src="./assets/wizard.png" href="https://github.com/IsabellaSchoen/WizardChess" width="300" height="200">
+        </div>
+        <div class="column">
+          <img src="./assets/realzeitsysteme.png" href="https://github.com/IsabellaSchoen/resy-ss21-assignments-grp1" width="350" height="200">
+        </div>
+        <div class="column">
+          <img src="./assets/rust.png" href="https://github.com/IsabellaSchoen/pir-ss21-grp4" width="350" height="200">
+        </div>
+      </div>
+
     </div>
 
 
