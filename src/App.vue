@@ -31,26 +31,59 @@
       </h1>
     </div>
 
+
+
+
     <div class="project">
       <h1 style="color: black">
         Projects I participated.
       </h1>
     </div>
 
+
+
     <div class="free-project">
-      <h1 style="color: black">
-        Free-time projects.
-        <div class="card">
-          <div class="card-img-top d-flex align-items-center">
-            <div>
-             <img src="assets/ducks.png"> 
-            </div>
-            <p class="col p-2 m-0">Here are ducks.</p>
-          </div>
+
+      <div class="aC4gN7">
+        <h2 style="color: black">
+          Free-time projects.
+        </h2>
+      </div>
+
+      <div class="card-img-top d-flex align-items-center bg-floralwhite">
+
+        <div>
+            <b-carousel
+                id="carousel-fade"
+                style="text-shadow: 0px 0px 2px #000"
+                fade
+                indicators
+                img-width="1024"
+                img-height="480"
+            >
+              <b-carousel-slide
+                  img-src="https://picsum.photos/1024/480/?image=55"
+              ></b-carousel-slide>
+              <b-carousel-slide
+                  img-src="https://picsum.photos/1024/480/?image=54"
+              ></b-carousel-slide>
+              <b-carousel-slide
+                  img-src="https://picsum.photos/1024/480/?image=53"
+              ></b-carousel-slide>
+            </b-carousel>
         </div>
 
-      </h1>
+        <p class="col p-2 m-0">In my free-time I enjoy painting with acryl colours.
+          With painting I have the possibilities to express my inner feelings or
+          to reproduce impressions in my own imagination.
+        </p>
+
+      </div>
+
     </div>
+
+
+
 
     <div class="inspi">
       <h1 style="color: black">
@@ -76,12 +109,42 @@ export default {
 <style>
 
 body {
-  background-color: antiquewhite !important;
+  background-color: floralwhite !important;
 }
 
+p {
+  text-indent: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  line-height: 1.2;
+  word-spacing: 0px;
+  background-color: floralwhite;
+  color: black;
+}
 
 .container{
-  background-color: antiquewhite;
+  background-color: floralwhite;
+}
+
+.card-img-top {
+
+}
+
+.person{
+  text-align: left;
+}
+
+.free-project{
+  text-align: left;
+}
+
+.project{
+  text-align: left;
+}
+
+.inspi{
+  text-align: left;
 }
 
 .main-content {
