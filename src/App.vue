@@ -26,9 +26,18 @@
 
 
     <div class="person">
-      <h1 style="color: black">
+      <h2 style="color: black">
         Who am I?
-      </h1>
+      </h2>
+      <div class="">
+        <p>
+          My name is Isabella Schön.
+          I am a student at the HTWG in Konstanz.
+          My focus in my study Applied Computer Science is the Hardware and Software of the computer.
+          But my main focus is Embedded Systems. Here we explore the different dependencies of the technique
+          and how each can be affected by changing sometimes just a single line.
+        </p>
+        </div>
     </div>
 
 
@@ -41,10 +50,9 @@
     </div>
 
 
-
     <div class="free-project">
 
-      <div class="aC4gN7">
+      <div class="">
         <h2 style="color: black">
           Free-time projects.
         </h2>
