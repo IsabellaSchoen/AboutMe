@@ -3,22 +3,26 @@
   <div class="main-content">
 
     <nav class="container">
-      <h1 style="color: black">
+      <h1>
         Hello and welcome to AboutMe
       </h1>
 
       <b-button-group class="button-group">
         <b-button variant="outline-dark" href="https://www.linkedin.com/in/isabella-sch%C3%B6n-854311211/">
-          <b-icon icon="person-fill"></b-icon> AboutMe
+          <b-icon icon="person-fill"></b-icon>
+          AboutMe
         </b-button>
         <b-button variant="outline-dark" href="https://github.com/IsabellaSchoen">
-          <b-icon icon="file-earmark"></b-icon> Projects
+          <b-icon icon="file-earmark"></b-icon>
+          Projects
         </b-button>
         <b-button variant="outline-dark">
-          <b-icon icon="envelope"></b-icon> Contact
+          <b-icon icon="envelope"></b-icon>
+          Contact
         </b-button>
         <b-button variant="outline-dark">
-          <b-icon icon="tools"></b-icon> Feedback
+          <b-icon icon="tools"></b-icon>
+          Feedback
         </b-button>
       </b-button-group>
 
@@ -26,7 +30,7 @@
 
 
     <div class="person">
-      <h2 style="color: black">
+      <h2>
         Who am I?
       </h2>
       <div class="">
@@ -37,14 +41,12 @@
           But my main focus is Embedded Systems. Here we explore the different dependencies of the technique
           and how each can be affected by changing sometimes just a single line.
         </p>
-        </div>
+      </div>
     </div>
 
 
-
-
     <div class="project">
-      <h2 style="color: black">
+      <h2>
         Projects I participated.
       </h2>
 
@@ -54,7 +56,8 @@
           <img src="./assets/wizard.png" href="https://github.com/IsabellaSchoen/WizardChess" width="300" height="200">
         </div>
         <div class="column">
-          <img src="./assets/realzeitsysteme.png" href="https://github.com/IsabellaSchoen/resy-ss21-assignments-grp1" width="350" height="200">
+          <img src="./assets/realzeitsysteme.png" href="https://github.com/IsabellaSchoen/resy-ss21-assignments-grp1"
+               width="350" height="200">
         </div>
         <div class="column">
           <img src="./assets/rust.png" href="https://github.com/IsabellaSchoen/pir-ss21-grp4" width="350" height="200">
@@ -67,7 +70,7 @@
     <div class="free-project">
 
       <div class="">
-        <h2 style="color: black">
+        <h2>
           Free-time projects.
         </h2>
       </div>
@@ -75,24 +78,24 @@
       <div class="card-img-top d-flex align-items-center bg-floralwhite">
 
         <div>
-            <b-carousel
-                id="carousel-fade"
-                style="text-shadow: 0px 0px 2px #000"
-                fade
-                indicators
-                img-width="1024"
-                img-height="480"
-            >
-              <b-carousel-slide
-                  img-src="https://picsum.photos/1024/480/?image=55"
-              ></b-carousel-slide>
-              <b-carousel-slide
-                  img-src="https://picsum.photos/1024/480/?image=54"
-              ></b-carousel-slide>
-              <b-carousel-slide
-                  img-src="https://picsum.photos/1024/480/?image=53"
-              ></b-carousel-slide>
-            </b-carousel>
+          <b-carousel
+              id="carousel-fade"
+              style="text-shadow: 0px 0px 2px #000"
+              fade
+              indicators
+              img-width="1024"
+              img-height="480"
+          >
+            <b-carousel-slide
+                img-src="https://picsum.photos/1024/480/?image=55"
+            ></b-carousel-slide>
+            <b-carousel-slide
+                img-src="https://picsum.photos/1024/480/?image=54"
+            ></b-carousel-slide>
+            <b-carousel-slide
+                img-src="https://picsum.photos/1024/480/?image=53"
+            ></b-carousel-slide>
+          </b-carousel>
         </div>
 
         <p class="col p-2 m-0">In my free-time I enjoy painting with acryl colours.
@@ -103,8 +106,6 @@
       </div>
 
     </div>
-
-
 
 
     <div class="inspi">
@@ -134,6 +135,11 @@ body {
   background-color: floralwhite !important;
 }
 
+h1, h2 {
+  color: black;
+}
+
+
 p {
   text-indent: 50px;
   text-align: center;
@@ -145,7 +151,7 @@ p {
   color: black;
 }
 
-.container{
+.container {
   background-color: floralwhite;
 }
 
@@ -153,19 +159,19 @@ p {
 
 }
 
-.person{
+.person {
   text-align: left;
 }
 
-.free-project{
+.free-project {
   text-align: left;
 }
 
-.project{
+.project {
   text-align: left;
 }
 
-.inspi{
+.inspi {
   text-align: left;
 }
 
@@ -178,8 +184,6 @@ p {
   margin-top: 60px;
 }
 </style>
-
-
 
 
 <!--
