@@ -4,7 +4,7 @@
 
     <nav class="container">
       <h1>
-        Hello and welcome to AboutMe
+        Hello and welcome to AboutMe!
       </h1>
 
       <b-button-group class="button-group">
@@ -23,10 +23,13 @@
         </b-button>
         </a>
 
-        <b-button variant="outline-dark">
-          <b-icon icon="envelope"></b-icon>
-          Contact
-        </b-button>
+        <a href="" target="_blank">
+          <b-button variant="outline-dark">
+            <b-icon icon="envelope"></b-icon>
+            Contact
+          </b-button>
+        </a>
+
 
         <b-button variant="outline-dark">
           <b-icon icon="tools"></b-icon>
@@ -126,9 +129,22 @@
 
 
     <div class="inspi">
-      <h1 style="color: black">
+      <h2 style="color: black">
         Inspirations.
-      </h1>
+      </h2>
+
+      <div>
+        <b-link href="https://en.wikipedia.org/wiki/Edward_Snowden">Edward Snowdengit </b-link>
+      </div>
+
+      <div>
+        <b-link href="https://www.w3schools.com/">w3schools</b-link>
+      </div>
+
+      <div>
+        <b-link href="https://exercism.io/">Exercism</b-link>
+      </div>
+
     </div>
 
   </div>
