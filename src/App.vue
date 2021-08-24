@@ -8,18 +8,26 @@
       </h1>
 
       <b-button-group class="button-group">
-        <b-button variant="outline-dark" href="https://www.linkedin.com/in/isabella-sch%C3%B6n-854311211/">
-          <b-icon icon="person-fill"></b-icon>
-          AboutMe
-        </b-button>
-        <b-button variant="outline-dark" href="https://github.com/IsabellaSchoen">
+
+        <a href="https://www.linkedin.com/in/isabella-sch%C3%B6n-854311211/" target="_blank">
+          <b-button variant="outline-dark">
+            <b-icon icon="person-fill"></b-icon>
+            AboutMe
+          </b-button>
+        </a>
+
+        <a href="https://github.com/IsabellaSchoen" target="_blank">
+        <b-button variant="outline-dark">
           <b-icon icon="file-earmark"></b-icon>
           Projects
         </b-button>
+        </a>
+
         <b-button variant="outline-dark">
           <b-icon icon="envelope"></b-icon>
           Contact
         </b-button>
+
         <b-button variant="outline-dark">
           <b-icon icon="tools"></b-icon>
           Feedback
@@ -51,18 +59,27 @@
       </h2>
 
 
-      <div class="row">
-        <div class="column">
-          <img src="./assets/wizard.png" href="https://github.com/IsabellaSchoen/WizardChess" width="300" height="200">
-        </div>
-        <div class="column">
-          <img src="./assets/realzeitsysteme.png" href="https://github.com/IsabellaSchoen/resy-ss21-assignments-grp1"
-               width="350" height="200">
-        </div>
-        <div class="column">
-          <img src="./assets/rust.png" href="https://github.com/IsabellaSchoen/pir-ss21-grp4" width="350" height="200">
-        </div>
-      </div>
+
+      <b-container class="">
+        <b-row>
+          <b-col>
+            <a href="https://github.com/IsabellaSchoen/WizardChess" target="_blank">
+              <img src="./assets/wizard.png"  width="300" height="200">
+            </a>
+          </b-col>
+          <b-col>
+            <a href="https://github.com/IsabellaSchoen/resy-ss21-assignments-grp1" target="_blank">
+              <img src="./assets/realzeitsysteme.png" width="350" height="200">
+            </a>
+          </b-col>
+          <b-col>
+            <a href="https://github.com/IsabellaSchoen/pir-ss21-grp4" target="_blank">
+              <img src="./assets/rust.png" width="350" height="200">
+            </a>
+          </b-col>
+        </b-row>
+      </b-container>
+
 
     </div>
 
